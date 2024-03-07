@@ -1,0 +1,79 @@
+/* Styles for header */
+body{
+    background-image:url(images.jpg);
+    padding: 0%;
+    margin: auto;
+}
+
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#nav bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+}
+
+#nav bar a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav bar a {
+    color:black;
+    text-decoration: none;
+}
+
+#nav bar a:hover {
+    color: #dbc25b; 
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about, .hobby2 {
+    width: 45%;
+}
+
+h2 {
+    color:black;
+}
+
+
+#hobby1 {
+    background-color:aliceblue;
+    padding: 20px;
+}
+
+#hobby1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.hobby2 {
+    background-color:rgb(201, 243, 229);
+    padding: 20px;
+}
+
+.hobby2 img {
+    max-width: 30%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
